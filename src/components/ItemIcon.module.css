@@ -1,0 +1,30 @@
+.itemicon {
+    width: 150px;
+    height: 150px;
+    border: 0;
+    background-color: transparent;
+
+}
+
+@media screen and (max-width: 768px){
+    .itemicon{
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+.text{
+
+}
+
+.icon{
+    transition: transform 0.5s ease-in-out;
+    aspect-ratio: 1;
+    object-fit: contain;
+
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}

@@ -1,10 +1,13 @@
-import React from 'react'
 import './App.css'
+
+import TopBar from "./components/TopBar.jsx";
+import Experiencia from "./components/Experiencia.jsx";
 
 function App() {
     return (
         <div className="App">
-            <h1> Buenos días</h1>
+            <TopBar />
+            <Experiencia />
         </div>
     )
 }
