@@ -8,7 +8,6 @@ function AboutMe() {
                 <img className={styles.foto} src={fotoale} alt="Alejandro Azurdia"/>
             </div>
             <div className={styles.textcontainer}>
-
                 <div className={styles.textRight}>
                     <p className={styles.nombreAle}>Alejandro Azurdia</p>
                     <p>
@@ -16,8 +15,7 @@ function AboutMe() {
                         FullStack Developer. Me encanta aprender y siempre estoy buscando nuevos desafíos.
                         <br/> <br/>
                         Además de la ingeniería, me he desarrollado en otras disciplinas. La lectura, la política, las
-                        ciencias puras, la historia y la música están dentro de mis intereses. Estudiante de Ingeniería
-                        en Computación, apasionado por el desarrollo web y apuntando a ser
+                        ciencias puras, la historia y la música están dentro de mis intereses.
                     </p>
                 </div>
             </div>

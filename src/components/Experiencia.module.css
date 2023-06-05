@@ -11,9 +11,9 @@
 .sectioncontainer:hover{
     opacity: 0.9;
     transform: scale(1.1);
+    background: #9dbacc;
+
 }
-
-
 
 @media (max-width: 768px){
     .container{

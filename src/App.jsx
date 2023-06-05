@@ -56,10 +56,18 @@ function App() {
                     />
                 </div>
             </div>
-            <div className={styles.Educacion}>
-                <p className={styles.Educaciontitle}>Mi Educación</p>
+            <div className={styles.bottombar}>
+                <p className={styles.contacto}>Contactame!</p>
+                <div className={styles.buttoncontactdiv}>
+                    <button className={styles.buttoncontact} onClick={()=> window.open("https://www.linkedin.com/in/alejandro-azurdia-236a61279/", "_blank")}>
+                        <p className={styles.buttoncontacttext}>Linkedin</p>
+                    </button>
+                    <button className={styles.buttoncontact} onClick={()=> window.open("mailto:aleazurdia1@gmail.com", "_blank")}>
+                        <p className={styles.buttoncontacttext}>Correo</p>
+                    </button>
+                </div>
+                <p className={styles.derechos}>Sitio Realizado por Alejandro Azurdia, Junio 2023</p>
             </div>
-
         </div>
     )
 }

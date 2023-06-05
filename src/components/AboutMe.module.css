@@ -5,9 +5,6 @@
 .container {
     display: flex;
     flex-direction: row;
-    background-color: #A4B8C4;
-    width: 80vw;
-    height: 80vh;
     padding: 0;
     overflow: hidden;
     margin: 5em 0;
@@ -22,13 +19,13 @@
 .fotocontainer{
     margin: 0;
     padding: 0;
-    height: 100%;
     justify-content: start;
+    max-height: 1000px;
 }
 
 .foto{
     display: flex;
-    height: 100%;
+    height: 800px;
 }
 
 .textcontainer{
@@ -38,6 +35,14 @@
     align-items: flex-start;
     color: white;
     gap : 3em;
+    background-color: #A4B8C4;
+    height: 800px;
+    width: 800px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.textcontainer:hover{
+    background: #9dbacc;
 }
 
 .textRight{
