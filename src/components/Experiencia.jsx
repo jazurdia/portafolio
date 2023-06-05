@@ -4,6 +4,8 @@ import sqlserverlogo from "../assets/sqlserver.svg";
 import ginlogo from "../assets/ginlogo.svg";
 
 function Experiencia() {
+
+
     return (
         <div className={styles.container}>
             <div className={styles.sectioncontainer}>

@@ -1,13 +1,14 @@
-import './App.css'
-
-import TopBar from "./components/TopBar.jsx";
+import styles from './App.module.css';
 import Experiencia from "./components/Experiencia.jsx";
+import AboutMe from "./components/AboutMe.jsx";
+import Proyectos from "./components/Proyectos.jsx";
 
 function App() {
     return (
-        <div className="App">
-            <TopBar />
-            <Experiencia />
+        <div className={styles.App}>
+            <AboutMe/>
+            <Experiencia/>
+            <Proyectos/>
         </div>
     )
 }
