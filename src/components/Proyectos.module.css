@@ -1,12 +1,73 @@
 .container{
     display: flex;
-    flex-direction: row;
-    background-color: #A4B8C4;
-    width: 80vw;
-    height: 80vh;
-    padding: 0;
-    margin: 5em 0;
-    transition: transform 0.5s ease-in-out;
+    flex-direction: column;
+    width: 40%;
+    column-gap: 2em;
+    background: #A4B8C4;
+    border-radius: 15px;
+    padding: 2em;
+    justify-content: stretch; /* Esto a lo mejor debo cambiarlo */
+    align-items: center;
 
+    transition: transform 0.5s ease-in-out;
+    opacity: 0.85;
+
+}
+
+.container:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.title{
+    font-size: 4em;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.description{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.containerlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 2em;
+    margin-top: 2em;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5em;
+    height: 2.5em;
+    border-radius: 1em;
+    background-color: #ffffff;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border: 0.2em solid white;
+    transition: transform 0.5s ease-in-out;
+}
+
+.button:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.imglogo{
+    width: 90%;
+    height: 90%;
 }
 
